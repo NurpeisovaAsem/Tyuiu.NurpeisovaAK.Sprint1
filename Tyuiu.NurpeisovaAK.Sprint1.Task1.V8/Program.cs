@@ -27,7 +27,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task1.V8
             Console.WriteLine("Введите значение x:");
             x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение y:");
+            Console.WriteLine("Введите значение a:");
             a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");

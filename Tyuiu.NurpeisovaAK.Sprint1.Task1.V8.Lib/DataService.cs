@@ -5,7 +5,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task1.V8.Lib
     {
         public double Calculate(double x, double a)
         {
-            return (x * a) / a;
+            return (x * 3.14 ) / a;
         }
     }
 }

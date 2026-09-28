@@ -9,9 +9,9 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task1.V8.Test
         {
             DataService ds = new DataService();
             double x = 1.0;
-            double a = double.Pi;
+            double a = x;
             var res = ds.Calculate(x, a);
-            Assert.AreEqual(1, res);
+            Assert.AreEqual(3.14, res);
         }
     }
 }
