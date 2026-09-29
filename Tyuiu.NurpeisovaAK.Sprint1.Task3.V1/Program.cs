@@ -27,6 +27,9 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task3.V1
             double h = 20;
             Console.WriteLine("Радиус цилиндра = " + r);
             Console.WriteLine("Высота цилиндра = " + h);
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РУЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("Объём цилиндра = " + ds.CylinderVolume(r,h).ToString("F3"));
             Console.ReadKey();
         }
