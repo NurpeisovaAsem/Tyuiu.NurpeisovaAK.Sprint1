@@ -5,7 +5,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return r * r * h * 3.142; 
+            return r * r * h * 3.14; 
         }
     }
 }
