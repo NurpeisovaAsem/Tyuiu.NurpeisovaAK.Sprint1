@@ -5,13 +5,13 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task1.V8.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
             double x = 1.0;
-            double a = x;
+            double a = 1.0;
             var res = ds.Calculate(x, a);
-            Assert.AreEqual(3.14, res);
+            Assert.AreEqual(Math.PI, res);
         }
     }
 }
