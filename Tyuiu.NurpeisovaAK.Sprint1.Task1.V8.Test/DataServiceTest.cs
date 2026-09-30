@@ -11,7 +11,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task1.V8.Test
             double x = 1.0;
             double a = 1.0;
             var res = ds.Calculate(x, a);
-            Assert.AreEqual(Math.PI, res);
+            Assert.AreEqual(Math.Round(Math.PI,2), res);
         }
     }
 }
