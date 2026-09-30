@@ -7,7 +7,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task3.V1.Lib
         public double CylinderVolume(double r, double h )
         {
             double pi = Math.PI;
-            return r * r * h * pi; 
+            return Math.Round (r * r * h * pi, 3); 
         }
     }
 }
