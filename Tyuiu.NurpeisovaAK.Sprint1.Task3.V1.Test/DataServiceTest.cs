@@ -10,7 +10,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task3.V1.Test
             DataService ds = new DataService();
             double r = 2;
             double h = 3;
-            double wait = 12*Math.PI;
+            double wait = Math.Round(12 * (Math.PI), 3 );
             var res = ds.CylinderVolume(r, h);
             Assert.AreEqual(wait, res);
         }
