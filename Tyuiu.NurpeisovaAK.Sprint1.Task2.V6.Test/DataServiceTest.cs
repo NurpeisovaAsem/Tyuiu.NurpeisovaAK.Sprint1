@@ -5,11 +5,11 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task2.V6.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
             DataService ds = new DataService();
             int x = 2300;
-            var res = ds.ConvertMToKm(x);
+            var res = Math.Round(ds.ConvertMToKm(x), 3);
             Assert.AreEqual(2.300, res);
         }
     }

@@ -5,7 +5,8 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task2.V6.Lib
     {
         public double ConvertMToKm(int value)
         {
-            return value / 1000.000;
+           
+            return value/1000.000;
         }
     }
 }
