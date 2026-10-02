@@ -7,7 +7,7 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task7.V8.Lib
         {
             double cosx = Math.Cos(x);
             double logx = Math.Log(x);
-            double res = x * logx + (y / (cosx - (x / 3)));
+            double res = Math.Round(x * logx + (y / (cosx - (x / 3))),3);
             return res;
         }
     }
