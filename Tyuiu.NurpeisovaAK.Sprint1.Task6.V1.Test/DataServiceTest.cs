@@ -8,10 +8,15 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task6.V1.Test
         [TestMethod]
         public void ValidExpression()
         {
-            string kod = "1";
+
             DataService ds = new DataService();
-            string res = ds.SymbolCode(kod);
             
+            string result = ds.SymbolCode("1");
+
+
+            Assert.AreEqual("49", result);
+            
+
         }
     }
 }

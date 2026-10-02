@@ -8,9 +8,12 @@ namespace Tyuiu.NurpeisovaAK.Sprint1.Task6.V1.Lib
             if (string.IsNullOrEmpty(value))
                 return "";
 
-            int code = (int)value[0];
+            char symbol = value[0];
+
+            int code = (int)symbol;
+
             return code.ToString();
-            
         }
     }
 }
+   
